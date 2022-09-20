@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ms+Madi&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <h2><img src="/imagenes/Vector.png"></h2> 
+        <h1 class="titulo">__Encriptador __</h1>
+    </header>
+
+    <main>
+        <section class="cuadroTexto">
+            <textarea class="input-texto" cols="35" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="botones">
+                <button class="encriptar" onclick="botonEncriptar()">
+                Encriptar
+                </button>
+
+                <button class="desencriptar" onclick="botonDesencriptar()">
+                Desencriptar
+                </button>
+            </div>
+        </section>
+
+        <section class="cuadroMensaje">
+            <textarea class="mensaje" cols="35" rows="10" ></textarea>
+
+            <button class="copiar" onclick="copiar()"> Copiar 
+            </button>
+        </section>
+    </main>
+    <footer>
+        <p class="pieDePagina"> Challenge Alura, Sandra Diaz V. grupo 3</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
