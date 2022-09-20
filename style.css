@@ -1,0 +1,103 @@
+header{
+    background: #b0d3e7;
+    padding: 5%;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    padding-top: 50px;
+    background: #83adc5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    font-family: 'Ms Madi', cursive;
+    padding-left: 20%;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+.input-texto{
+    box-sizing: border-box;
+    margin-left: 30px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.encriptar{
+    background: white;
+    margin-left: 30px;
+    width: 40%;
+    font-style:normal;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+    
+    background: rgba(0, 162, 255, 0.651);
+    transform: scale(1.2);
+    
+}
+
+
+.desencriptar{
+    margin-top: 15px;
+    margin-left: 10px;
+    background: white;
+    width: 45%;
+    font-style:normal;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    
+    background: rgba(0, 162, 255, 0.651);
+    transform: scale(1.2);
+    
+}
+
+.mensaje{
+ margin-left: 30%;
+ background-image: url("imagenes/Muñeco.jpg");
+ background-repeat: no-repeat;
+ background-size: 280px;
+ border: 2px solid #000000;
+ border-radius: 10px;
+}
+
+.copiar{
+    margin-top: 15px;
+    background: white;
+    width: 45%;
+    font-style:normal;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer; 
+    margin-left: 175px;
+}
+.copiar:hover{
+    background: rgba(0, 162, 255, 0.651);
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    background: #83adc5;
+    padding: 100px;
+    color: white;
+    font-weight: bold;
+    
+}
